@@ -36,11 +36,17 @@ class IntroductionState extends State<Introduction> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Center(
-              child: Image(
-                image: AssetImage(widget.imageUrl),
-                height: widget.imageHeight,
+              child:Lottie.network(
+                widget.imageUrl,
                 width: widget.imageWidth,
+                height: widget.imageHeight,
               ),
+              
+//               Image(
+//                 image: AssetImage(widget.imageUrl),
+//                 height: widget.imageHeight,
+//                 width: widget.imageWidth,
+//               ),
             ),
             SizedBox(
               height: 20.0,

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
+
 
 class Introduction extends StatefulWidget {
   final String imageUrl;
